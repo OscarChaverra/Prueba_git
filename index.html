@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inspirada en el Grano y Árbol de Café</title>
+    <style>
+        /* Colores */
+        :root {
+            --grano-cafe: #4e342e;
+            --cascara-cafe: #a0522d;
+            --palo-cafe: #6b4226;
+            --beige-neutro: #f4f0e6;
+            --verde-musgo: #556b2f;
+            --texto-principal: #4e342e;
+        }
+
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--beige-neutro);
+            color: var(--texto-principal);
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: var(--grano-cafe);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Contenido principal */
+        .container {
+            padding: 20px;
+        }
+
+        h2 {
+            color: var(--palo-cafe);
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Botón */
+        .btn {
+            background-color: var(--verde-musgo);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-transform: uppercase;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: var(--cascara-cafe);
+        }
+
+        /* Sección destacada */
+        .highlight {
+            background-color: var(--cascara-cafe);
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--palo-cafe);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a la Esencia del Café</h1>
+    </header>
+
+    <div class="container">
+        <h2>La Historia de Cada Grano</h2>
+        <p>Cada grano de café cuenta una historia que comienza con el fruto en el árbol, protegido por una cáscara de color rojizo y sostenido por el robusto tallo del café. Con cada taza, conectamos con la tierra y la dedicación de nuestros productores.</p>
+
+        <div class="highlight">
+            <h2>Oferta Especial</h2>
+            <p>¡Obtén un 10% de descuento en tu primer pedido y descubre la esencia del grano de café!</p>
+        </div>
+
+        <button class="btn">Explorar Más</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Café Auténtico. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
